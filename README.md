@@ -4,6 +4,8 @@ A DIY hardware master clock that synchronizes MIDI gear, eurorack modular synths
 
 Built on an Arduino Nano (LGT8F328P) with a stripboard layout in a 1590DD aluminum enclosure.
 
+**[→ Online Build Reference](https://immoreel.github.io/Master-clock/)** — Interactive schematics, BOM checklist, and pinout
+
 ## Features
 
 - **BPM control** — 20-300 BPM via rotary encoder, tap tempo, or CV input
@@ -150,12 +152,16 @@ Without this inverter, MIDI In will receive garbage data.
 
 ## Interactive Reference
 
-The `master-clock.jsx` file is a React artifact that can be opened in [Claude.ai](https://claude.ai). It contains interactive tabs for:
+**[→ Online version](https://immoreel.github.io/Master-clock/)** — No install needed, works in any browser.
+
+Or open `master-clock.jsx` in [Claude.ai](https://claude.ai) for the full version with interactive stripboard layout.
+
+Both contain:
 
 - **Overview** — Block diagram with signal flow
 - **Schematic** — Per-section circuit diagrams (MIDI Out, MIDI In, CV In, Clock Outputs, PO Sync, Encoder, Display, Power)
 - **BOM** — Full bill of materials with checkboxes and persistent progress tracking
-- **Stripboard** — Detailed grid layout with toggleable layers (components, Arduino, cuts, wires) and a placement reference table
+- **Stripboard** — Grid layout (full interactive version in Claude.ai)
 - **Pinout** — Complete Arduino pin assignment table
 
 ## License
